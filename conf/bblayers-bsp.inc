@@ -16,9 +16,6 @@ BSPLAYERS = " \
   ${OEROOT}/layers/meta-yocto/meta-yocto-bsp \
   ${OEROOT}/layers/meta-xilinx/meta-xilinx-bsp \
   ${OEROOT}/layers/meta-xilinx-tools \
+  ${OEROOT}/layers/meta-ti \
   ${OEROOT}/layers/meta-lmp/meta-lmp-bsp \
 "
-
-# Remove layer dependencies that are not used/required by LMP
-## LMP provides its own kernel recipes
-LAYERDEPENDS_meta-arm-bsp_remove = "meta-kernel"
