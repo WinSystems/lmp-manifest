@@ -1,9 +1,13 @@
 <manifest>
-  <include name="lmp-base.xml" />
-  <include name="lmp-bsp.xml" />
+  <include name="default.xml" />
 
   <remote fetch="https://source.foundries.io/factories/winsystems"
           name="subscriber-overrides" />
+
+  <project name="meta-partner-winsystems"
+           revision="14c4ceacec13008c2b993cdd00eea7b422b7071a"
+           path="layers/meta-partner-winsystems"
+           remote="subscriber-overrides"/>
 
   <project name="meta-subscriber-overrides"
            revision="devel"
