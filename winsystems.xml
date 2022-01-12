@@ -5,7 +5,7 @@
           name="subscriber-overrides" />
 
   <project name="meta-partner-winsystems"
-           revision="68e1062e2a39465be774254d752372a4cbb5d4c2"
+           revision="a9f37212f5773adaa7dda2828e4a55b4a22521c7"
            path="layers/meta-partner-winsystems"
            remote="subscriber-overrides"/>
 
