@@ -1,7 +1,7 @@
 <manifest>
   <include name="default.xml" />
 
-  <remote fetch="https://source.foundries.io/factories/winsystems"
+  <remote fetch="https://github.com/WinSystems"
           name="subscriber-overrides" />
 
   <project name="meta-partner-winsystems"
