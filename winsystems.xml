@@ -1,13 +1,16 @@
 <manifest>
   <include name="default.xml" />
 
-  <remote fetch="https://github.com/WinSystems"
+  <remote fetch="https://source.foundries.io/factories/winsystems"
           name="subscriber-overrides" />
+
+  <remote fetch="https://github.com/WinSystems"
+          name="winsys-partner" />
 
   <project name="meta-partner-winsystems"
            revision="a9f37212f5773adaa7dda2828e4a55b4a22521c7"
            path="layers/meta-partner-winsystems"
-           remote="subscriber-overrides"/>
+           remote="winsys-partner"/>
 
   <project name="meta-subscriber-overrides"
            revision="devel"
