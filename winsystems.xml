@@ -13,7 +13,7 @@
            remote="winsys-partner"/>
 
   <project name="meta-subscriber-overrides"
-           revision="devel"
+           revision="sr-cert"
            path="layers/meta-subscriber-overrides"
            remote="subscriber-overrides"/>
 </manifest>
