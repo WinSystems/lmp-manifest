@@ -8,7 +8,7 @@
           name="winsys-partner" />
 
   <project name="meta-partner-winsystems"
-           revision="eeccb174d1654c8da82a1064f9843db9e2815a54"
+           revision="ca96f6c9f9e6888914316c4be8e8e7ba92a7cbbd"
            path="layers/meta-partner-winsystems"
            remote="winsys-partner"/>
 
