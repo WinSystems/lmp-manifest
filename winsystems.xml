@@ -4,10 +4,13 @@
   <remote fetch="https://source.foundries.io/factories/winsystems"
           name="subscriber-overrides" />
 
+  <remote fetch="https://github.com/WinSystems"
+          name="winsys-partner" />
+
   <project name="meta-partner-winsystems"
-           revision="14c4ceacec13008c2b993cdd00eea7b422b7071a"
+           revision="ca96f6c9f9e6888914316c4be8e8e7ba92a7cbbd"
            path="layers/meta-partner-winsystems"
-           remote="subscriber-overrides"/>
+           remote="winsys-partner"/>
 
   <project name="meta-subscriber-overrides"
            path="layers/meta-subscriber-overrides"

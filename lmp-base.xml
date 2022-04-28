@@ -5,15 +5,16 @@
 
   <default remote="lmp-mirrors" revision="master" sync-j="4"/>
 
-  <project name="bitbake" revision="0a3bf681530bd63fc0036ca81ef868ab53fde56c"/>
+  <project name="bitbake" revision="b7c60b97fd225ca23e648e8635a9f30e7e2591a5"/>
   <project name="lmp-tools" path="tools/lmp-tools" remote="fio">
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="meta-lmp" path="layers/meta-lmp" remote="fio" revision="6f40b3f448589dae2b49476f52e736327074ad6c"/>
-  <project name="meta-clang" path="layers/meta-clang" revision="04a1194c78563524659f27941304e564956792b1"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" revision="945f062ff098dc9c8ba8d22c5eef88adec60730d"/>
-  <project name="meta-security" path="layers/meta-security" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512"/>
-  <project name="meta-updater" path="layers/meta-updater" revision="070d291c0e79f58f2c23ef43740ea77fe2d952a6"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" revision="55ccbab52ec77d8cd923e16cad17605b14fd8036"/>
-  <project name="openembedded-core" path="layers/openembedded-core" revision="431dae3ff30b162b8a63344f559601e590f64a54"/>
+  <project name="meta-lmp" path="layers/meta-lmp" remote="fio" revision="00b39bb667b0340628e6c0df19d6323ef99e8b95"/>
+  <project name="meta-clang" path="layers/meta-clang" revision="2207df98559afc19d6a0243027bbac18980fc764"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" revision="23598caeafce0af0dde8d1339cf5edff021f6823"/>
+  <project name="meta-rust" path="layers/meta-rust" revision="1b59fd45906082c978d0a0a6e4e51a0ea4aa32c7"/>
+  <project name="meta-security" path="layers/meta-security" revision="c40e1e84da9624b9096a463dbed3b301c01c268e"/>
+  <project name="extra/meta-updater" path="layers/meta-updater" revision="3713277e2e52e35e5e24cf8b2b2003bedf33ffcf"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" revision="5f3650880ec887263b6e4ab160c11ed7dffd32c2"/>
+  <project name="openembedded-core" path="layers/openembedded-core" revision="155c238d340fdc82420ba9f367cb23014c78b705"/>
 </manifest>
