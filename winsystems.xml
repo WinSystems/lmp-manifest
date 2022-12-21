@@ -8,12 +8,12 @@
           name="winsys-partner" />
 
   <project name="meta-partner-winsystems"
-           revision="ca96f6c9f9e6888914316c4be8e8e7ba92a7cbbd"
+           revision="next"
            path="layers/meta-partner-winsystems"
            remote="winsys-partner"/>
 
   <project name="meta-subscriber-overrides"
-           revision="devel"
+           revision="next"
            path="layers/meta-subscriber-overrides"
            remote="subscriber-overrides"/>
 </manifest>
