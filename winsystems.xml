@@ -5,7 +5,7 @@
           name="winsys-partner" />
 
   <project name="meta-partner-winsystems"
-           revision="69b2b6a1b9adbffffadc085a469422e918a707ea"
+           revision="7cbf1eaec69b0604bf111f8f5d3119183a913be6"
            path="layers/meta-partner-winsystems"
            remote="winsys-partner"/>
 </manifest>
