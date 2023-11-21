@@ -8,7 +8,7 @@
           name="winsys-partner" />
 
   <project name="meta-partner-winsystems"
-           revision="next"
+	  revision="main"
            path="layers/meta-partner-winsystems"
            remote="winsys-partner"/>
 
